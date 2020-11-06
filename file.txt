@@ -1,0 +1,42 @@
+Kodex.co.za	MAMP
+c5r11s7% cd MAMP/apache2/htdocs
+c5r11s7% ls
+503.html		applications.html	bitnami.css		favicon.ico		img			index.html
+c5r11s7% cd ../
+c5r11s7% rm htdocs
+rm: htdocs: is a directory
+c5r11s7% rm -fr htdocs
+c5r11s7% ln -s htdocs /goinfre/kgomera/Desktop/Kodex.co.za
+c5r11s7% ls
+bin		build		conf		icons		logs		scripts
+bnconfig.app	cgi-bin		error		include		modules
+c5r11s7% ls -l
+total 0
+drwxr-xr-x   29 kgomera  student   928 Sep 17 10:33 bin
+drwxr-xr-x    3 kgomera  student    96 Sep 17 10:33 bnconfig.app
+drwxr-xr-x   11 kgomera  student   352 Sep 17 10:33 build
+drwxr-xr-x    2 kgomera  student    64 Sep 17 10:35 cgi-bin
+drwxr-xr-x   16 kgomera  student   512 Sep 17 10:35 conf
+drwxr-xr-x   22 kgomera  student   704 Sep 17 10:33 error
+drwxr-xr-x  179 kgomera  student  5728 Sep 17 10:33 icons
+drwxr-xr-x   65 kgomera  student  2080 Sep 17 10:33 include
+drwxr-xr-x    5 kgomera  student   160 Sep 17 10:35 logs
+drwxr-xr-x  100 kgomera  student  3200 Sep 17 10:33 modules
+drwxr-xr-x    3 kgomera  student    96 Sep 17 10:33 scripts
+c5r11s7% ln -s  /goinfre/kgomera/Desktop/Kodex.co.za htdocs
+c5r11s7% ls
+bin		build		conf		htdocs		include		modules
+bnconfig.app	cgi-bin		error		icons		logs		scripts
+c5r11s7% cd ../../..
+c5r11s7% ls
+Applications	Documents	Library		Movies		Pictures	goinfre
+Desktop		Downloads	MAMP		Music		Public
+c5r11s7% cd Desktop/Kodex.co.za
+c5r11s7% echo "<h1>Hello!</h1>" > index.php
+zsh: event not found: </h1>
+c5r11s7% ls
+ instant social messaging app	Kodex_Website_template		Rental System Website_template	author.
+Construction_website		PayrollSystem			_config.yml			php_blog_template
+Hospital Management System	README.md			author
+c5r11s7% echo "<h1>Hello\!</h1>" > index.php
+c5r11s7%
