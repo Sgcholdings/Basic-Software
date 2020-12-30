@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+  }
+   
+  table {
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    font-family: "Ubuntu"; /*border-collapse: collapse;*/
+    border-spacing: 0;
+    background-color: #333333;
+  }
+
+  .title2 {
+    text-align:center; 
+    color:#5a9ab2; 
+    margin-top: 20px;
+  }
+   
+  th,
+  td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+  }
+   
+  th {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #292929;
+    letter-spacing: 1px;
+  }
+   
+  td {
+    width: 14.285%;
+    transition: all 0.3s;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1.5% 1.5% 5%;
+    vertical-align: initial;
+    padding: 1.5% 0;
+    height: 75px;
+  }
+   
+  .day:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+   
+  .today {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25) !important;
+  }
+   
+  span.number {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 14;
+  }
+
+  .dishes {
+    background-color: green;
+  }
+
+  .sweep {
+    background-color: #5a9ab2;
+  }
+
+  .day-name {
+      font-weight: bold;
+      font-size:15;
+  }
+
+  .rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15;
+  }
+
+  .rectangle2 {
+    height: 50px;
+    width: 100px;
+    background-color:#5a9ab2;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15;
+  }
+   
